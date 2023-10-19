@@ -6,3 +6,40 @@ header{
     display: grid;
     grid-template-areas: "header" "main" "footer";
 }
+
+.search{
+    display: flex;
+    position: relative;
+}
+
+#search-btn{
+    border-radius: 10px;
+}
+
+.read-more-btn{
+    display:flex;
+    width: 75px;
+    justify-content: center;
+    padding: 0.5rem;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.default-flex{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+.default-flex img{
+    width: 100%;
+}
+
+#inspiration-pic-size img{
+    width: 50%;
+}
