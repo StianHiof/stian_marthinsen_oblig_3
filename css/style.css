@@ -2,6 +2,7 @@ header{
     background-color: rgb(131, 205, 230);
 }
 
-body{
-    background-color: lightgray;
+#grid-container{
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
 }
