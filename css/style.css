@@ -10,6 +10,7 @@ body{
 header{
     background-color: rgb(131, 205, 230);
     grid-area: header;
+    padding: 1rem;
 }
 
 header span{
@@ -18,18 +19,26 @@ header span{
     align-items: center;
 }
 
+header span div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 1rem 0 0 0;
+}
+
+
 #logo{
     display:flex;
     justify-content: center;
-    width: 50%;
-    margin: 1rem 0 0 0;
+    width: 60%;
+    margin: 0 0 0 0;
     padding: 0.75rem;
     text-decoration: none;
     background-color: #587CC2;
     font-family: 'Swanky and Moo Moo', cursive;
     color: #8AC5D2;
     border-radius: 10px;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 550;
 }
 
@@ -43,7 +52,6 @@ header span{
 
 nav{
     display: flex;
-    justify-content: center;
 }
 
 .gender-nav-position{
@@ -52,9 +60,13 @@ nav{
 }
 
 #gender-nav{
-    display: inline-flex;
+    display: flex;
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem;
     list-style: none;
     text-decoration: none;
+    justify-content: space-between;
 }
 
 main{
