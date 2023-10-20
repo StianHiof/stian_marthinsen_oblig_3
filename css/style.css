@@ -8,7 +8,7 @@ body{
 }
 
 header{
-    background-color: rgb(131, 205, 230);
+    background-color: #8AC5D2;
     grid-area: header;
     padding: 1rem;
 }
@@ -38,7 +38,7 @@ header span div{
     font-family: 'Swanky and Moo Moo', cursive;
     color: #8AC5D2;
     border-radius: 10px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 550;
 }
 
@@ -54,16 +54,44 @@ nav{
     display: flex;
 }
 
-.gender-nav-position{
-    list-style: none;
+.gender-nav-barn{
+    display: inline-block;
+    padding: 1rem;
     text-decoration: none;
+    background-color: rgb(224, 222, 130);
+    color: black;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.gender-nav-kvinne{
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: rgb(184, 113, 204);
+    color: black;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.gender-nav-herre{
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: rgb(58, 131, 221);
+    color: black;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 400;
 }
 
 #gender-nav{
     display: flex;
     width: 100%;
-    margin: 1rem;
-    padding: 1rem;
+    margin: 1rem 1rem 0 1rem;
+    padding: 1rem 1rem 0 1rem;
     list-style: none;
     text-decoration: none;
     justify-content: space-between;
@@ -71,10 +99,11 @@ nav{
 
 main{
     grid-area: main;
+    background-color: ghostwhite;
 }
 
-footer{
-    grid-area: footer;
+main section article{
+    padding: 25px;
 }
 
 form.search{
@@ -89,9 +118,9 @@ form.search{
 
 #search-field{
     border-radius: 10px;
-    width: 65%;
-    min-height: 42px;
-    max-height: 50px;
+    width: 70%;
+    min-height: 30px;
+    max-height: 40px;
     background-color: #8AC5D2;
     opacity: 80%;
 }
@@ -101,6 +130,11 @@ form.search{
     margin: 5px;
     background-color: #8AC5D2;
     opacity: 80%;
+}
+
+.fa-magnifying-glass{
+    display: flex;
+    margin: 1rem;
 }
 
 .read-more-btn{
@@ -120,7 +154,6 @@ form.search{
     flex-direction: column;
     padding: 10px;
     align-items: center;
-    
 }
 
 .default-flex img{
@@ -133,4 +166,74 @@ form.search{
 
 #inspiration-pic-size img{
     width: 100%;
+}
+
+footer{
+    grid-area: footer;
+    padding: 0 0 1rem 0;
+    background-color: #8AC5D2;
+}
+
+footer section{
+    display: flex;
+}
+
+
+footer section article span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer section article h3{
+    text-decoration-line: underline;
+    
+}
+
+footer section article a{
+    text-decoration-line: none;
+    color: black;
+}
+
+#kundeservice{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    width: 50%;
+    padding: 0 1rem;
+}
+
+#sosiale-medier{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 1rem;
+    justify-content: space-between;
+}
+
+.fa-facebook{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-youtube{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-comments{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-tab{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #587CC2;
+    color: black;
+    font-weight: 600;
+    padding: 0.25rem;
+    text-decoration-line: none;
 }
