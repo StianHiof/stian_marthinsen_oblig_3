@@ -38,7 +38,7 @@ header span div{
     font-family: 'Swanky and Moo Moo', cursive;
     color: #8AC5D2;
     border-radius: 10px;
-    font-size: 2rem;
+    font-size: 2.1rem;
     font-weight: 550;
 }
 
@@ -52,6 +52,36 @@ header span div{
 
 nav{
     display: flex;
+}
+
+.navbar{
+    display: none;
+}
+
+.responsive{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #587CC2;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 93%;
+    list-style: none;
+    gap: 0.5rem;
+}
+
+.responsive a{
+    color: black;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.25rem;
+    text-decoration: none;
+}
+
+.innrykk{
+    width: 100%;
+    margin: 0 0 0 3rem;
 }
 
 .gender-nav-barn{
@@ -122,7 +152,7 @@ form.search{
     min-height: 30px;
     max-height: 40px;
     background-color: #8AC5D2;
-    opacity: 80%;
+    opacity: 100%;
 }
 
 #search-btn{

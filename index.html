@@ -27,6 +27,28 @@
                 <i class="fa-solid fa-magnifying-glass"></i>
             </form>
             <nav>
+                <ul class="navbar">
+                    <li><a href="produkt.html">Nyheter:</a></li>
+                    <li><a href="produkt.html" class="innrykk">Høstsesong</a></li>
+                    <li><a href="produkt.html" class="innrykk">Barn</a></li>
+                    <li><a href="produkt.html" class="innrykk">Kvinne</a></li>
+                    <li><a href="produkt.html" class="innrykk">Herre</a></li>
+                    <li><a href="#">Helseplager:</a></li>
+                    <li><a href="#" class="innrykk">Plattfot</a></li>
+                    <li><a href="#" class="innrykk">Bred for</a></li>
+                    <li><a href="#" class="innrykk">Vonde knær</a></li>
+                    <li><a href="#" class="innrykk">Fibromyalgi</a></li>
+                    <li><a href="#" class="innrykk">Osv.</a></li>
+                    <li><a href="#">Velferd og miljø:</a></li>
+                    <li><a href="#" class="innrykk">Våre tiltak</a></li>
+                    <li><a href="#">Treningstips:</a></li>
+                    <li><a href="#" class="innrykk">Øvelser</a></li>
+                    <li><a href="#" class="innrykk">Råd til riktig sko</a></li>
+                    <li><a href="#">Skotilbehør:</a></li>
+                    <li><a href="#" class="innrykk">Såler</a></li>
+                    <li><a href="#" class="innrykk">Impregnering</a></li>
+                    <li><a href="#" class="innrykk">Rens</a></li>
+                </ul>
                 <ul id="gender-nav">
                     <li><a href="produkt.html" class="gender-nav-barn">Barn</a></li>
                     <li><a href="produkt.html" class="gender-nav-kvinne">Kvinne</a></li>
@@ -119,5 +141,22 @@
             </section>
         </footer>
         </div>
+        <script>
+
+           
+            let x = document.querySelector(".navbar")
+
+            document.getElementById("ham").addEventListener("click", (e)=> {
+                if (x.className === "navbar") {
+                    x.className += " responsive" ;
+                    
+                } else {
+                    x.className = "navbar"
+                }
+                    
+            })
+
+
+        </script>
     </body>
 </html>
