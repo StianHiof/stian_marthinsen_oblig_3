@@ -63,6 +63,7 @@ nav{
     flex-direction: column;
     position: absolute;
     background-color: #587CC2;
+    box-shadow: 10px 10px gray;
     margin: 0;
     padding: 0;
     top: 0;
