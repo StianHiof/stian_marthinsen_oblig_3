@@ -137,6 +137,49 @@ main{
     padding: 1rem;
 }
 
+#shoe-size{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+#shoe-option{
+    display: flex;
+    margin: 3rem 0 3rem 0;
+    height: 2rem;
+}
+
+.handlekurv{
+    display:flex;
+    width: 10rem;
+    justify-content: center;
+    padding: 0.5rem;
+    text-decoration: none;
+    background-color: #26d638;
+    color: black;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.handlekurv{
+    display: flex;
+    justify-content: space-around;
+}
+
+.child-option{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    width: 50%;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
 main section article{
     padding: 25px;
 }
@@ -189,6 +232,12 @@ form.search{
     flex-direction: column;
     padding: 10px;
     align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+
 }
 
 .default-flex img{
