@@ -133,6 +133,10 @@ main{
     background-color: ghostwhite;
 }
 
+.nav-sti{
+    padding: 1rem;
+}
+
 main section article{
     padding: 25px;
 }
@@ -191,8 +195,9 @@ form.search{
     width: 100%;
 }
 
-.default-flex h2{
+#quote{
     color: #8AC5D2;
+    margin: 0 0 1rem 0;
 }
 
 #inspiration-pic-size img{
